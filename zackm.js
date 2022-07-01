@@ -270,7 +270,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./media/image/mans.jpg'), 2022, "ZackMans Official ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./media/image/mans.jpg'), 2022, "BOT LINTANG ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // Anti Hidetag X-Zons
@@ -594,7 +594,7 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "MyMans APIs", //Kasih namalu 
+"title": "BOT LINTANG", //Kasih namalu 
 "description": "SELF BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
@@ -615,7 +615,7 @@ orderMessage: {
 itemCount : 1,
 status: 1,
 surface : 1,
-message: 'MyMans', //Kasih namalu
+message: 'BOT LINTANG', //Kasih namalu
 orderTitle: 'Bang',
 thumbnail: log0, //Gambarnye
 sellerJid: '0@s.whatsapp.net'
@@ -675,8 +675,8 @@ const fgclink = {
 "groupInviteMessage": {
 "groupJid": "120363043965529911@g.us",
 "inviteCode": "HDmXvmHpEkE9wRJy3IO6OZ",
-"groupName": "ZackMans Broadcast", 
-"caption": "ZackMans Broadcast", 
+"groupName": "BOT LINTANG Broadcast", 
+"caption": "BOT LINTANG Broadcast", 
 'jpegThumbnail': log0
 }
 }
@@ -690,11 +690,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"ZackMans Official",
+ "title":"BOT LINTANG",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'ZackMans Official',
+ 'caption': 'BOT LINTANG',
  'jpegThumbnail': log0
 }
 }
@@ -737,7 +737,7 @@ const rurl = relink[Math.floor(Math.random() * relink.length)];
 mamans = teks
 mans.sendMessage(m.chat, {text:mamans, mentions: await mans.parseMention(mamans), contextInfo:{externalAdReply:{
 title: `${ucapanWaktu} ${pushname}`,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© BOT LINTANG - X - LINTANG",
 thumbnail: thum,
 mediaType:1,
 mediaUrl: rurl,
@@ -749,9 +749,9 @@ sourceUrl: rurl
 const zckmn = await fetchJson("https://ZackMans.github.io/database/zackbotmans.json")
 const ceknyai = require('./package.json').version
 if (zckmn.update === ceknyai) {
-cekbotinfo = `Anda menggunakan zackbotmans versi terbaru (${ceknyai}), belum ada update dari owner`
+cekbotinfo = `Anda menggunakan BOT LINTANG versi terbaru (${ceknyai}), belum ada update dari owner`
 } else {
-cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate zackbotmans ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
+cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate BOT LINTANG ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
 }
 
 let getjson = await mans.query({
@@ -993,7 +993,7 @@ video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption: listmn,
-footer: '© MyMans APIs - X - ZackMans Official',
+footer: '© BOT LINTANG - X - LINTANG',
 templateButtons: templateButtons
 }
 mans.sendMessage(m.chat, templateMessage)
@@ -1452,7 +1452,7 @@ let buttons = [
 let buttonMessage = {
 image: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 }
@@ -1858,7 +1858,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -1902,7 +1902,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -1947,7 +1947,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2122,7 +2122,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2369,7 +2369,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -2419,7 +2419,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -2448,7 +2448,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -2526,7 +2526,7 @@ rows: listSerch
 ]
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 title: "     「 Youtube Search Downloader 」",
 buttonText: "List Search",
 mentions: await mans.parseMention(teskd),
@@ -2636,7 +2636,7 @@ if (!m.isGroup) return m.reply(mess.group)
 let response = await mans.groupInviteCode(m.chat)
 mans.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "ZackMans Official",
+text: "BOT LINTANG",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
@@ -2689,7 +2689,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 ZackMans Official 」*\n\nChange Info, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -2715,7 +2715,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 ZackMans Official 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -2788,11 +2788,11 @@ m.reply('Sukses Broadcast')
 }
 break
 case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
+teks = `     「 BOT LINTANG 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
 }
-teks += `\n\n${zckmn.group}\n\nPassword : ZackMansOfficial\nDont Forget Donate`
+teks += `\n\n${zckmn.group}\n\nPassword : BOT LINTANG\nDont Forget Donate`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
@@ -2804,7 +2804,7 @@ footer: "© " + zckmn.author,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official Saweria ( Donate )",
+title:"BOT LINTANG Saweria ( Donate )",
 body: "© " + zckmn.author,
 thumbnail: fs.readFileSync("media/image/saweria.jpg"),
 mediaType:1,
@@ -3299,8 +3299,8 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3338,12 +3338,12 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3378,7 +3378,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await mans.parseMention(teskd),
@@ -3415,7 +3415,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -3451,7 +3451,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4
 }
@@ -3477,8 +3477,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3494,8 +3494,8 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3526,11 +3526,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"BOT LINTANG - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3556,7 +3556,7 @@ footer: "© MyMans APIs - MyMainas",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"BOT LINTANG - Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3585,11 +3585,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"BOT LINTANG - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3611,11 +3611,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"BOT LINTANG - Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3647,11 +3647,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.nowm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"BOT LINTANG - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!"
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum}
 mediaType:1,
@@ -3670,7 +3670,7 @@ if (isBan) return m.reply(mess.ban)
 let res = await hx.ttdownloader(args[0]) // atau bisa pake aiovideodl
 // let Ttnye = await bochil.savefrom(args[0])
 mans.sendMessage(from, {audio:{url:res.wm}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"BOT LINTANG - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3696,11 +3696,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.wm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"BOT LINTANG - Tiktok Downloader",
 body: "Downloader!", //Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3735,12 +3735,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -3769,12 +3769,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© MyMans APIs - MyMainas",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© BOT LINTANG - X - LINTANG",
 thumbnail: thum,
 mediaType:2,
 mediaUrl: args[0],
@@ -3791,8 +3791,8 @@ break
 case 'ytvd': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3803,8 +3803,8 @@ break
 case 'ytad': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - LINTANG",
+body:"© BOT LINTANG - X - LINTANG",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
