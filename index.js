@@ -1,7 +1,7 @@
 /**
- - Create By ZackMans Official
- - Contact Me on https://wa.me/+6281385062956
- - Follow iG : @salman_alfarizj_15
+ - Create By BOT LINTANG
+ - Contact Me on https://wa.me/+6281322577123
+ - Follow iG : @joceylintangg
  - Thanks Dika Ardnt
 */
 
@@ -40,7 +40,7 @@ version
 const store = Store.bind(mans)
 
 mans.ws.on('CB:call', async (json) => {
-if (anticals === true) {
+if (anticals === false) {
 const callerId = json.content[0].attrs['call-creator']
 if (json.content[0].tag == 'offer') {
 let pa7rick = await mans.sendContact(callerId, global.owner)
@@ -84,7 +84,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 }
@@ -99,7 +99,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:ppgroup},
 caption: teks,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 }
@@ -153,7 +153,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: mbcs,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 headerType: 4,
 }
@@ -197,7 +197,7 @@ let buttons = [
 let buttonMessage = {
 image: fs.readFileSync("./storage/hasil.jpg"),
 caption: mbc,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 mentions:[num],
 buttons: buttons,
 headerType: 4,
@@ -222,7 +222,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: tesgd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© BOT LINTANG - X - LINTANG",
 buttons: buttons,
 mentions: [num],
 headerType: 4,
